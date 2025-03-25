@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Font */
+* {
+  @apply font-bebas;
+  color: var(--text-color);
+}
+
+/* Theme Colors for light and dark mode */
+:root {
+  --background-color:#312d2d80;
+  --background-color-offset:#ffffffd9;
+  --highlight-color: #ffffffd9;
+  --highlight-hover-color: #a0a0a093;
+  --highlight-gradient: linear-gradient(rgba(248, 0, 0, 0.575), rgba(216, 214, 214, 0.493));
+  --contrast-color:#ffffff4d;
+  --contrast-color-offset:#312d2d80;
+  --shadow-color: #ffffffd9;
+  --shadow-color-offset:#ffffffd9;
+  --text-color: #ffffffd9;
+}
+
+@layer components {
+  .nav-link-after {
+    @apply text-xl transition-all duration-300 after:block after:content-[""] after:bg-[--contrast-color] after:w-0 after:h-[1.5px] after:duration-300 after:m-auto hover:after:w-full
+  }
+
+  h1 {@apply text-4xl text-center}
+
+  h2 {@apply text-2xl text-center}
+
+  h3{ @apply text-xl text-center}
+
+  .magic-center{ @apply flex flex-col items-center}
+}
+
+/* styles for flash messages */
+
+.ct-toast .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+}
+
+.ct-toast .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.progress.active:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}
