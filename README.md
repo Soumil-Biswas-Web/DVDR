@@ -8,11 +8,13 @@ Open the website using the link https://soumil-biswas-web.github.io/DVDR/
 
 This website consists of the following pages:
 
-- The Home / main Page `index.html`
-- Blog page `DVDR-blog.html`
-- Contact page `DVDR-email.html`
-- Posts/Screenshots page `DVDR-screenshots.html`
-- Videos page (for DVDR Cinematics Channel) `DVDR-videos.html`
-- Videos page (for DVDR Central Channel) `DVDR-videos-central.html`
+- The Home / main Page
+- Blog page
+- Contact page
+- Posts/Screenshots page
+- Videos page (for DVDR Cinematics Channel)
+- Videos page (for DVDR Central Channel)
 
-- CSS stylesheet `DVDR-main.css`
+# Stack
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,react.js,tailwind,vite)](https://skillicons.dev)
