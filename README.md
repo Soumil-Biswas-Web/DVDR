@@ -17,4 +17,4 @@ This website consists of the following pages:
 
 # Stack
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,react.js,tailwind,vite)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,react,tailwind,vite)](https://skillicons.dev)
